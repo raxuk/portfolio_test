@@ -5,7 +5,6 @@ export default defineConfig({
     site: 'https://raxuk.github.io',
     base: 'portfolio_test',
     output: 'static',
-    outDir: './docs',
     build: {
       assets: 'astro'
     }
