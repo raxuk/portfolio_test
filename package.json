@@ -1,7 +1,7 @@
 {
   "name": "minimalist-portfolio-json",
   "type": "module",
-  "homepage": "https://raxuk.github.io/portfolio_test",
+  "homepage": "https://Tigeronsky.github.io/portfolio-celine-jin",
   "version": "0.0.1",
   "scripts": {
     "predeploy": "npm run build",
