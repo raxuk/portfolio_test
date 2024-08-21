@@ -1,8 +1,11 @@
 {
   "name": "minimalist-portfolio-json",
   "type": "module",
+  "homepage": "https://raxuk.github.io/portfolio_test",
   "version": "0.0.1",
   "scripts": {
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
     "dev": "astro dev",
     "start": "astro dev",
     "build": "astro check && astro build",
@@ -14,5 +17,8 @@
     "astro": "4.3.2",
     "hotkeypad": "0.1.0",
     "typescript": "5.3.3"
+  },
+  "devDependencies": {
+    "gh-pages": "^6.1.1"
   }
 }
